@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What was the name of the talking mushroom?",
+        "options": ["Sparkle", "Glow", "Shine", "Glimmer"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What problem did the forest have?",
+        "options": ["All the animals were asleep", "The trees were dying", "It was always raining", "There was no food"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Who cast the spell on the forest?",
+        "options": ["A wizard", "A fairy", "An evil witch", "A dragon"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "How many magical items does Alice need to find?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What did Alice do at the end of the chapter?",
+        "options": ["She went home", "She fell asleep", "She stepped into the forest", "She talked to animals"],
+        "correctAnswer": 2
+    }
+]

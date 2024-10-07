@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What was the name of the new area Alice entered?",
+        "options": ["The Silent Forest", "The Whispering Woods", "The Shouting Shrubs", "The Talking Trees"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What number magical item were they looking for in this chapter?",
+        "options": ["First", "Second", "Third", "Fourth"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What did Glow warn Alice about?",
+        "options": ["Poisonous plants", "Wild animals", "Confusing whispers", "Quicksand"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What were the trees doing in this part of the forest?",
+        "options": ["Dancing", "Sleeping", "Whispering", "Growing"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What did Alice need to do to find the right path?",
+        "options": ["Use a map", "Follow the river", "Listen carefully", "Climb the tallest tree"],
+        "correctAnswer": 2
+    }
+]

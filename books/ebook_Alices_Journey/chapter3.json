@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What did Alice and Glow find in this chapter?",
+        "options": ["A mountain", "An Enchanted River", "A castle", "A cave"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Where was the first magical item hidden?",
+        "options": ["In a tree", "Under a rock", "Beneath the river's waters", "In a flower"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Who offered to help Alice?",
+        "options": ["A bird", "A fish", "A rabbit", "A turtle"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What did the helper ask Alice to do?",
+        "options": ["Sing a song", "Solve a riddle", "Dance", "Climb a tree"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "How did Glow describe the river?",
+        "options": ["It was very cold", "It was deep and dark", "It seemed to glow with an inner light", "It was frozen"],
+        "correctAnswer": 2
+    }
+]

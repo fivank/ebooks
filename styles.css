@@ -1,0 +1,72 @@
+/* Base styles for the entire application */
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0e6d2;
+    color: #3e2723;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the entire library app */
+#library-app {
+    background-color: #fff9e6;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d7ccc8;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+/* Styles for the main heading */
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 4em;
+    color: #4e342e;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the book list */
+#book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Styles for individual book items */
+.book-item {
+    cursor: pointer;
+    margin: 20px;
+    border: 2px solid #d7ccc8;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff9e6;
+    width: 200px;
+}
+
+.book-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Styles for book cover images */
+.book-cover {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* Styles for book titles */
+.book-title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #6b4226;
+}

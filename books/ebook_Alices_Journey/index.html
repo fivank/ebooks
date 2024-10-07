@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magical eBook Adventure</title>
+    <!-- Link to CSS stylesheet for custom styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to Google Fonts for typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- Cover section displayed initially -->
+        <div id="cover" style="display: block;">
+            <!-- Title of the book, now fixed part of the cover -->
+            <h1>Magical eBook Adventure</h1>
+            <div id="cover-content"></div>
+            <button id="start-reading">Start Reading</button>
+        </div>
+        <!-- Book content section displayed after starting -->
+        <div id="book-content" style="display: none;">
+            <h1>Magical eBook Adventure</h1>
+            <!-- Progress bar to show reading progress -->
+            <div id="progress-bar"></div>
+            <!-- Table of contents for navigation -->
+            <div id="table-of-contents"></div>
+            <!-- Container for displaying chapter content -->
+            <div id="chapter-content"></div>
+            <!-- Container for displaying quizzes -->
+            <div id="quiz-container" style="display: none;">
+                <h2>Chapter Quiz</h2>
+                <div id="quiz-questions"></div>
+                <button id="submit-quiz">Submit Answers</button>
+            </div>
+            <!-- Button to proceed to the next chapter -->
+            <button id="next-chapter" style="display: none;">Next Chapter</button>
+        </div>
+    </div>
+    <!-- Script to convert Markdown to HTML -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>
+    <!-- Link to the main JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

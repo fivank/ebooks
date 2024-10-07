@@ -1,0 +1,7 @@
+# Kapitel 1: Die Entdeckung des Spiegels
+
+In einem kleinen Dorf, versteckt zwischen sanften Hügeln und dichten Wäldern, lebte ein achtjähriges Mädchen namens Nina. Sie war ein neugieriges Kind, immer bereit, neue Abenteuer zu entdecken und Geheimnisse zu lüften. Besonders faszinierend fand sie den Dachboden ihres alten Hauses, der voller alter, vergessener Dinge war. Jedes Mal, wenn sie die knarrende Treppe hinaufstieg, fühlte sie sich wie eine Entdeckerin, die in eine andere Welt eintauchte.
+
+Eines warmen Sommernachmittags, als die Sonne durch die kleinen Fenster des Dachbodens schien und die Staubpartikel in der Luft tanzten, stolperte Nina über etwas ganz Besonderes. Hinter einer alten Truhe, versteckt unter einem Haufen verstaubter Decken, entdeckte sie einen großen Spiegel. Der Rahmen war mit filigranen Mustern verziert, die wie geheimnisvolle Runen wirkten, und das Glas war von einer dünnen Staubschicht bedeckt.
+
+Mit klopfendem Herzen und vor Aufregung glitzernden Augen trat Nina näher. Sie strich vorsichtig über die Verzierungen und spürte eine leichte Wärme unter ihren Fingern. Neugierig griff sie nach einem alten Tuch und begann, den Staub vom Spiegel zu wischen. Als das Glas klar wurde, sah sie ihr eigenes Spiegelbild. Doch etwas war anders – ihr Spiegelbild lächelte, als ob es lebendig wäre.

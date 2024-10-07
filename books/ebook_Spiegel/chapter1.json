@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What was the main setting of the chapter?",
+        "options": ["A beach", "A mysterious forest", "A bustling city", "A mountain range"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Who is the main character of the story?",
+        "options": ["Bob", "Alice", "Charlie", "Diana"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What did Alice find near the forest's entrance?",
+        "options": ["A talking animal", "A glowing mushroom", "A magic wand", "A treasure chest"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "How did Alice react when she heard the voice?",
+        "options": ["She ran away", "She jumped back in surprise", "She laughed", "She ignored it"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What happened at the end of the chapter?",
+        "options": ["Alice went home", "Alice entered the forest", "Alice met a wizard", "Alice's magical adventure began"],
+        "correctAnswer": 3
+    }
+]

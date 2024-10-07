@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Where did Alice and Glow arrive in this chapter?",
+        "options": ["The Edge of the Forest", "The Heart of the Forest", "The Witch's Castle", "The Enchanted River"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What color was the light in the clearing?",
+        "options": ["Blue", "Green", "Silver", "Golden"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What did they see in the clearing?",
+        "options": ["The witch", "Sleeping animals", "Dancing fairies", "A giant tree"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What animal was NOT mentioned as being asleep in the clearing?",
+        "options": ["Squirrel", "Deer", "Bear", "Owl"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What was Alice preparing to do at the end of the chapter?",
+        "options": ["Run away", "Take a nap", "Use the magical items", "Fight the witch"],
+        "correctAnswer": 2
+    }
+]
