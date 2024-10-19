@@ -1,3 +1,6 @@
+// Unique identifier for this book
+const bookId = 'ebook_Spiegel';
+
 // Initial chapter and quiz data variables
 let currentChapter = 0;
 let quizData = null;
@@ -5,13 +8,13 @@ const totalChapters = 7; // Total number of chapters in the book
 
 // Function to load reading progress from localStorage
 function loadProgress() {
-    const savedProgress = localStorage.getItem('bookProgress');
+    const savedProgress = localStorage.getItem('bookProgress_' + bookId);
     return savedProgress ? JSON.parse(savedProgress) : { lastChapter: 0, completedQuizzes: [] };
 }
 
 // Function to save reading progress to localStorage
 function saveProgress(progress) {
-    localStorage.setItem('bookProgress', JSON.stringify(progress));
+    localStorage.setItem('bookProgress_' + bookId, JSON.stringify(progress));
 }
 
 // Load initial progress
@@ -21,7 +24,7 @@ let progress = loadProgress();
 async function loadCover() {
     const response = await fetch('cover.md');
     const coverText = await response.text();
-    
+
     // Create and append the cover image
     const coverImage = document.createElement('img');
     coverImage.src = 'image_cover.jpg';
@@ -55,6 +58,9 @@ async function loadChapter(chapterNumber) {
     document.getElementById('chapter-content').innerHTML = marked(chapterText);
     updateProgressBar();
     updateTableOfContents();
+
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
 
     // Check if the quiz for the chapter is already completed
     if (progress.completedQuizzes.includes(chapterNumber)) {
@@ -108,8 +114,8 @@ function checkQuiz() {
 // Function to update the progress bar
 function updateProgressBar() {
     const progressBar = document.getElementById('progress-bar');
-    const progress = currentChapter / totalChapters * 100;
-    progressBar.innerHTML = `<div class="progress" style="width: ${progress}%"></div>`;
+    const progressPercentage = (currentChapter / totalChapters) * 100;
+    progressBar.innerHTML = `<div class="progress" style="width: ${progressPercentage}%"></div>`;
 }
 
 // Function to update the table of contents
@@ -142,6 +148,12 @@ function showCover() {
 
 // Function to display magical text feedback
 function showMagicalText(message) {
+    // Remove any existing magical text
+    const existingMagicalText = document.querySelector('.magical-text');
+    if (existingMagicalText) {
+        existingMagicalText.remove();
+    }
+
     const magicalText = document.createElement('div');
     magicalText.className = 'magical-text';
     magicalText.textContent = message;
@@ -158,7 +170,6 @@ document.getElementById('submit-quiz').addEventListener('click', () => {
     if (correctAnswers >= 4) {
         showMagicalText(`Congratulations! You have answered ${correctAnswers} questions correctly and can read the next chapter!`);
         document.getElementById('next-chapter').style.display = 'block';
-        progress.lastChapter = Math.max(progress.lastChapter, currentChapter);
         if (!progress.completedQuizzes.includes(currentChapter)) {
             progress.completedQuizzes.push(currentChapter);
         }
@@ -190,9 +201,9 @@ function endBook() {
 
 // Function to restart the book
 function restartBook() {
-    progress = { lastChapter: 0, completedQuizzes: [] };
-    saveProgress(progress);
-    startReading();
+    // Do not reset progress to keep chapters unlocked
+    // Instead, just start reading from the first chapter
+    loadChapter(1);
 }
 
 // Event listener for starting the reading process

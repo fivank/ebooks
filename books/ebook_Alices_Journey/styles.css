@@ -84,6 +84,7 @@ h1 {
 #table-of-contents li.locked {
     color: #8d6e63;
     cursor: not-allowed;
+    pointer-events: none; /* Prevent click events on locked chapters */
 }
 
 #table-of-contents li.unlocked::before {
@@ -177,6 +178,11 @@ button:hover {
     margin-top: 20px;
     opacity: 0;
     transition: opacity 2s ease-in-out;
+}
+
+/* Ensure only one magical text is visible */
+#quiz-container .magical-text {
+    position: relative;
 }
 
 /* Styles for the cover page */
