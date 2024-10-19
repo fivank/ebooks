@@ -3,42 +3,50 @@ const books = [
     { title: "Alice Forest", folder: "ebook_Alices_Journey" }
 ];
 
-async function checkImageExists(url) {
-    try {
-        console.log(`Checking: ${url}`);
-        const response = await fetch(url);
-        console.log(`Response for ${url}: ${response.status}`);
-        return response.ok;
-    } catch (err) {
-        console.log(`Error checking ${url}: ${err}`);
-        return false;
-    }
-}
+function getCoverImage(folder) {
+    return new Promise((resolve) => {
+        const defaultPath = 'default-cover.png';
+        const imageExtensions = ['jpg', 'jpeg', 'png', 'gif'];
 
-async function getCoverImage(folder) {
-    const jpgPath = `books/${folder}/image_cover.jpg`;
-    const pngPath = `books/${folder}/image_cover.png`;
-    const defaultPath = 'default-cover.png';
-    
-    if (await checkImageExists(jpgPath)) {
-        return jpgPath;
-    } else if (await checkImageExists(pngPath)) {
-        return pngPath;
-    } else {
-        return defaultPath;
-    }
+        let found = false;
+
+        const checkNext = (index) => {
+            if (index >= imageExtensions.length) {
+                resolve(defaultPath);
+                return;
+            }
+
+            const ext = imageExtensions[index];
+            const imgPath = `books/${folder}/image_cover.${ext}`;
+
+            const img = new Image();
+            img.onload = () => {
+                resolve(imgPath);
+            };
+            img.onerror = () => {
+                checkNext(index + 1);
+            };
+            img.src = imgPath;
+        };
+
+        checkNext(0);
+    });
 }
 
 async function loadBooks() {
     const bookList = document.getElementById('book-list');
-    for (const book of books) {
+
+    const bookPromises = books.map(async (book) => {
         const bookItem = document.createElement('div');
         bookItem.className = 'book-item';
 
         const bookCover = document.createElement('img');
         bookCover.className = 'book-cover';
-        bookCover.src = await getCoverImage(book.folder);
         bookCover.alt = book.title;
+
+        getCoverImage(book.folder).then((src) => {
+            bookCover.src = src;
+        });
 
         const bookTitle = document.createElement('div');
         bookTitle.className = 'book-title';
@@ -48,7 +56,9 @@ async function loadBooks() {
         bookItem.appendChild(bookTitle);
         bookItem.addEventListener('click', () => openBook(book.folder));
         bookList.appendChild(bookItem);
-    }
+    });
+
+    await Promise.all(bookPromises);
 }
 
 function openBook(folder) {
