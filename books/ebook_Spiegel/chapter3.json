@@ -1,27 +1,27 @@
 [
     {
-        "question": "What did Alice and Glow find in this chapter?",
-        "options": ["A mountain", "An Enchanted River", "A castle", "A cave"],
+        "question": "Wohin müssen Nina und Neve im Wald gehen?",
+        "options": ["Zu einem Schloss", "Zu einem Fluss", "Zu einem Berg", "Zu den Quellen des Wissens"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Wer erschien über der Quelle des Wissens?",
+        "options": ["Ein Drache", "Ein Wassergeist", "Ein Vogel", "Eine Fee"],
         "correctAnswer": 1
     },
     {
-        "question": "Where was the first magical item hidden?",
-        "options": ["In a tree", "Under a rock", "Beneath the river's waters", "In a flower"],
+        "question": "Welches Rätsel musste Nina lösen?",
+        "options": ["Das Rätsel des Regenbogens", "Das Rätsel der Tiere", "Das Rätsel der Wassertropfen", "Das Rätsel der Farben"],
         "correctAnswer": 2
     },
     {
-        "question": "Who offered to help Alice?",
-        "options": ["A bird", "A fish", "A rabbit", "A turtle"],
-        "correctAnswer": 1
-    },
-    {
-        "question": "What did the helper ask Alice to do?",
-        "options": ["Sing a song", "Solve a riddle", "Dance", "Climb a tree"],
-        "correctAnswer": 1
-    },
-    {
-        "question": "How did Glow describe the river?",
-        "options": ["It was very cold", "It was deep and dark", "It seemed to glow with an inner light", "It was frozen"],
+        "question": "Welche Farbe hat das Wasser, wenn alle Farben vereint sind?",
+        "options": ["Blau", "Rot", "Weiß", "Grün"],
         "correctAnswer": 2
+    },
+    {
+        "question": "Was repräsentiert das Juwel, das Nina erhielt?",
+        "options": ["Kraft und Tapferkeit", "Mut und Stärke", "Glück und Freude", "Selbstvertrauen und Weisheit"],
+        "correctAnswer": 3
     }
 ]

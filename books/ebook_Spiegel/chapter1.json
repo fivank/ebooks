@@ -1,27 +1,27 @@
 [
     {
-        "question": "What was the main setting of the chapter?",
-        "options": ["A beach", "A mysterious forest", "A bustling city", "A mountain range"],
-        "correctAnswer": 1
-    },
-    {
-        "question": "Who is the main character of the story?",
-        "options": ["Bob", "Alice", "Charlie", "Diana"],
-        "correctAnswer": 1
-    },
-    {
-        "question": "What did Alice find near the forest's entrance?",
-        "options": ["A talking animal", "A glowing mushroom", "A magic wand", "A treasure chest"],
-        "correctAnswer": 1
-    },
-    {
-        "question": "How did Alice react when she heard the voice?",
-        "options": ["She ran away", "She jumped back in surprise", "She laughed", "She ignored it"],
-        "correctAnswer": 1
-    },
-    {
-        "question": "What happened at the end of the chapter?",
-        "options": ["Alice went home", "Alice entered the forest", "Alice met a wizard", "Alice's magical adventure began"],
+        "question": "Wo hat Nina den Spiegel gefunden?",
+        "options": ["Im Garten", "Im Wald", "In der Küche", "Im Dachboden"],
         "correctAnswer": 3
+    },
+    {
+        "question": "Wie reagierte Nina, als sie den Spiegel entdeckte?",
+        "options": ["Sie war aufgeregt", "Sie lief weg", "Sie hatte Angst", "Sie war gelangweilt"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Was war das Besondere am Rahmen des Spiegels?",
+        "options": ["Er war glänzend", "Er war mit filigranen Mustern verziert", "Er war beschädigt", "Er war aus Holz"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Was bemerkte Nina, als sie in den Spiegel schaute?",
+        "options": ["Ihr Spiegelbild lächelte", "Der Spiegel war verschwunden", "Der Spiegel war zerbrochen", "Es gab keinen Unterschied"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Wie fühlte sich der Spiegelrahmen an, als Nina ihn berührte?",
+        "options": ["Hart", "Kalt", "Warm", "Weich"],
+        "correctAnswer": 2
     }
 ]

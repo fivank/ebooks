@@ -1,9 +1,17 @@
-# Chapter 3: The Enchanted River
+# Kapitel 3: Das Rätsel der Quelle
 
-Alice and Glow ventured deeper into the forest. Soon, they came across a sparkling river that seemed to glow with an inner light.
+Nina und Neve begannen ihren Weg durch den magischen Wald. Überall um sie herum entdeckte Nina neue Wunder. Sie sah winzige Feen, die zwischen den Blumen tanzten, und hörte das sanfte Murmeln eines nahen Baches, der kristallklares Wasser führte. Die Vögel sangen Lieder, die sich harmonisch in die friedliche Umgebung einfügten.
 
-"This is the Enchanted River," Glow explained. "The first magical item we need is hidden beneath its waters."
+„Neve, wohin gehen wir?“, fragte Nina neugierig, während sie über einen mit Moos bewachsenen Pfad liefen. Neve lächelte geheimnisvoll. „Wir müssen zu den Quellen des Wissens, wo du deine erste Prüfung bestehen wirst.“ Nina nickte, obwohl sie ein wenig nervös war. Sie wusste nicht, was sie erwarten würde, aber sie fühlte sich bereit, alles zu versuchen.
 
-Alice looked at the rushing water nervously. "But how can I go under the water to find it?"
+Bald erreichten sie eine Lichtung, in deren Mitte eine alte, verzauberte Quelle sprudelte. Das Wasser funkelte in allen Farben des Regenbogens. „Dies ist die Quelle des Wissens“, erklärte Neve. „Hier wirst du deine erste Prüfung bestehen.“
 
-Just then, a friendly fish poked its head out of the water. "I can help!" it said. "But first, you must solve my riddle..."
+Ein sanftes Plätschern ertönte, und ein Wassergeist erschien über der Quelle. Er war transparent und schimmerte in Blau- und Grüntönen. „Willkommen, Nina“, sagte der Geist mit einer melodischen Stimme. „Um die erste Prüfung zu bestehen, musst du das Rätsel der Wassertropfen lösen.“
+
+Nina trat näher an die Quelle heran und betrachtete das leuchtende Wasser. Der Wassergeist sprach: „Welche Farbe hat das Wasser, wenn alle Farben vereint sind?“ Nina dachte angestrengt nach. Sie erinnerte sich an den Farbkreis, den sie in der Schule gelernt hatte, und wie alle Farben zusammen weißes Licht ergaben.
+
+„Das Wasser ist weiß, wenn alle Farben vereint sind“, sagte sie schließlich mit fester Stimme. Der Wassergeist lächelte und nickte. „Das ist richtig, Nina. Du hast die erste Prüfung bestanden.“
+
+Die Quelle leuchtete auf, und ein funkelndes Juwel erschien im Wasser. Nina nahm es vorsichtig in ihre Hand und spürte eine warme Kraft durch ihren Körper strömen. Sie lächelte stolz und drehte sich zu Neve um. „Gut gemacht, Nina“, lobte Neve. „Dieses Juwel repräsentiert dein Selbstvertrauen und deine Weisheit. Behalte es gut.“
+
+Mit dem ersten Juwel sicher in ihrer Tasche machten sich Nina und Neve auf den Weg zur nächsten Prüfung, gespannt auf die weiteren Abenteuer, die vor ihnen lagen.

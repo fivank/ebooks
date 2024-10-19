@@ -1,27 +1,27 @@
 [
     {
-        "question": "What was the name of the new area Alice entered?",
-        "options": ["The Silent Forest", "The Whispering Woods", "The Shouting Shrubs", "The Talking Trees"],
+        "question": "Welches Tier begegnet Nina bei der nächsten Prüfung?",
+        "options": ["Ein Drache", "Ein Feuervogel", "Ein Wassergeist", "Eine Schlange"],
         "correctAnswer": 1
     },
     {
-        "question": "What number magical item were they looking for in this chapter?",
-        "options": ["First", "Second", "Third", "Fourth"],
+        "question": "Was muss Nina tun, um das nächste Juwel zu erhalten?",
+        "options": ["Den Feuervogel fangen", "Den Baum erklimmen", "Einen Rätsel lösen", "Durch das Tal laufen"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Wie baut Nina ihren provisorischen Gleiter?",
+        "options": ["Aus einem Flügel, Zweigen und Bändern", "Aus Holz und Seilen", "Mit Magie", "Mit Neves Hilfe"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Was repräsentiert das Juwel, das Nina erhält?",
+        "options": ["Kreativität", "Mut", "Selbstvertrauen", "Einfallsreichtum"],
         "correctAnswer": 1
     },
     {
-        "question": "What did Glow warn Alice about?",
-        "options": ["Poisonous plants", "Wild animals", "Confusing whispers", "Quicksand"],
-        "correctAnswer": 2
-    },
-    {
-        "question": "What were the trees doing in this part of the forest?",
-        "options": ["Dancing", "Sleeping", "Whispering", "Growing"],
-        "correctAnswer": 2
-    },
-    {
-        "question": "What did Alice need to do to find the right path?",
-        "options": ["Use a map", "Follow the river", "Listen carefully", "Climb the tallest tree"],
-        "correctAnswer": 2
+        "question": "Wie reagiert der Feuervogel, als Nina ihn fängt?",
+        "options": ["Er überreicht ihr das Juwel", "Er fliegt weg", "Er greift sie an", "Er verschwindet"],
+        "correctAnswer": 0
     }
 ]

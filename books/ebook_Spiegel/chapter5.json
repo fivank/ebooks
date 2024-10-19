@@ -1,27 +1,27 @@
 [
     {
-        "question": "Where did Alice and Glow arrive in this chapter?",
-        "options": ["The Edge of the Forest", "The Heart of the Forest", "The Witch's Castle", "The Enchanted River"],
+        "question": "Welches Gebäude betritt Nina für ihre dritte Prüfung?",
+        "options": ["Einen Feuervulkan", "Einen Eispalast", "Ein Schloss aus Glas", "Eine Höhle"],
         "correctAnswer": 1
     },
     {
-        "question": "What color was the light in the clearing?",
-        "options": ["Blue", "Green", "Silver", "Golden"],
-        "correctAnswer": 3
+        "question": "Wer leitet die dritte Prüfung?",
+        "options": ["Die Eiskönigin", "Der Feuervogel", "Neve", "Ein Eisdrache"],
+        "correctAnswer": 0
     },
     {
-        "question": "What did they see in the clearing?",
-        "options": ["The witch", "Sleeping animals", "Dancing fairies", "A giant tree"],
-        "correctAnswer": 1
-    },
-    {
-        "question": "What animal was NOT mentioned as being asleep in the clearing?",
-        "options": ["Squirrel", "Deer", "Bear", "Owl"],
+        "question": "Worin besteht Ninas Aufgabe im Eispalast?",
+        "options": ["Den kältesten Ort finden", "Einen Schatz bergen", "Den wärmsten Ort finden", "Einen Schneemann bauen"],
         "correctAnswer": 2
     },
     {
-        "question": "What was Alice preparing to do at the end of the chapter?",
-        "options": ["Run away", "Take a nap", "Use the magical items", "Fight the witch"],
+        "question": "Was wärmt den Raum, den Nina findet?",
+        "options": ["Erinnerungen und Liebe", "Ein großes Feuer", "Die Sonne", "Magische Kristalle"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Was repräsentiert das letzte Juwel, das Nina erhält?",
+        "options": ["Weisheit", "Mut", "Wärme und Liebe", "Kreativität"],
         "correctAnswer": 2
     }
 ]

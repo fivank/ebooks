@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Was macht Nina, als sie zurück auf dem Dachboden ist?",
+        "options": ["Sie versteckt das Buch", "Sie verlässt das Haus", "Sie öffnet das leuchtende Buch und beginnt zu schreiben", "Sie schläft sofort ein"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Was strahlt weiterhin sanftes Licht aus, während Nina schreibt?",
+        "options": ["Das Fenster", "Der Spiegel", "Das Buch", "Die Kiste"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Was plant Nina, mit ihren Geschichten zu tun?",
+        "options": ["Sie geheim zu halten", "Sie zu verbrennen", "Sie dem Spiegel zu geben", "Sie mit ihrer Familie und Freunden zu teilen"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Wofür dankt Nina Neve?",
+        "options": ["Für die Prüfungen", "Für den Spiegel", "Für das Buch", "Für die Hilfe, ihre Stärken zu entdecken"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Was hält Nina fest in ihren Armen, als sie ins Bett geht?",
+        "options": ["Ein Kissen", "Das magische Buch", "Eine Decke", "Einen Kristall"],
+        "correctAnswer": 1
+    }
+]

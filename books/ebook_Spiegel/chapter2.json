@@ -1,27 +1,27 @@
 [
     {
-        "question": "What was the name of the talking mushroom?",
-        "options": ["Sparkle", "Glow", "Shine", "Glimmer"],
+        "question": "Wie heißt das Spiegelbild von Nina?",
+        "options": ["Nina", "Neve", "Lina", "Nora"],
         "correctAnswer": 1
     },
     {
-        "question": "What problem did the forest have?",
-        "options": ["All the animals were asleep", "The trees were dying", "It was always raining", "There was no food"],
-        "correctAnswer": 0
-    },
-    {
-        "question": "Who cast the spell on the forest?",
-        "options": ["A wizard", "A fairy", "An evil witch", "A dragon"],
+        "question": "Was passiert, als Nina 'Hallo' sagt?",
+        "options": ["Der Spiegel zerbricht", "Nichts passiert", "Das Spiegelbild antwortet", "Nina wird in den Spiegel gezogen"],
         "correctAnswer": 2
     },
     {
-        "question": "How many magical items does Alice need to find?",
-        "options": ["One", "Two", "Three", "Four"],
+        "question": "Wohin gelangt Nina, als der Dachboden verschwindet?",
+        "options": ["In eine Stadt", "In den Himmel", "In einen Wald", "In eine Wüste"],
         "correctAnswer": 2
     },
     {
-        "question": "What did Alice do at the end of the chapter?",
-        "options": ["She went home", "She fell asleep", "She stepped into the forest", "She talked to animals"],
+        "question": "Was fühlte Nina, als der Spiegel zu leuchten begann?",
+        "options": ["Einen kalten Wind", "Schmerzen", "Ein Kribbeln auf der Haut", "Angst"],
         "correctAnswer": 2
+    },
+    {
+        "question": "Welche Aufgabe steht Nina bevor?",
+        "options": ["Ein Kampf", "Eine wichtige Aufgabe", "Eine Prüfung", "Eine Schatzsuche"],
+        "correctAnswer": 1
     }
 ]

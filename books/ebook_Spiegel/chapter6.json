@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Was befindet sich in der Schatztruhe, die Nina öffnet?",
+        "options": ["Ein Buch mit leeren Seiten", "Gold und Silber", "Ein magischer Spiegel", "Edelsteine"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Wie kann die Schatztruhe geöffnet werden?",
+        "options": ["Mit einem Zauberspruch", "Mit den drei Juwelen", "Durch Neves Magie", "Mit einem Schlüssel"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Was repräsentiert das Buch, das Nina findet?",
+        "options": ["Ihre Fantasie und Träume", "Eine geheime Karte", "Ein uraltes Rätsel", "Die Macht des Spiegels"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Was soll Nina mit dem magischen Buch tun?",
+        "options": ["Ihre eigenen Geschichten und Erlebnisse aufschreiben", "Es an die Eiskönigin zurückgeben", "Es in der Höhle lassen", "Es verstecken"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Was hat Nina durch ihre Abenteuer gelernt?",
+        "options": ["Dass sie stark, mutig und kreativ ist", "Dass sie reich werden kann", "Dass Magie gefährlich ist", "Dass sie den Wald fürchten muss"],
+        "correctAnswer": 0
+    }
+]

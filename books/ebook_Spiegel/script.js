@@ -1,7 +1,7 @@
 // Initial chapter and quiz data variables
 let currentChapter = 0;
 let quizData = null;
-const totalChapters = 5; // Total number of chapters in the book
+const totalChapters = 7; // Total number of chapters in the book
 
 // Function to load reading progress from localStorage
 function loadProgress() {
