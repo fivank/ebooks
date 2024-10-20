@@ -8,6 +8,13 @@ body {
     color: #3e2723;
 }
 
+@media (max-width: 768px) {
+    body {
+        max-width: 100%; /* Allow body to take full width on mobile */
+        padding: 10px; /* Reduce padding on mobile */
+    }
+}
+
 /* Container for the entire app */
 #app {
     background-color: #fff9e6;
@@ -15,6 +22,12 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border: 2px solid #d7ccc8;
+}
+
+@media (max-width: 768px) {
+    #app {
+        padding: 20px; /* Reduce padding on mobile */
+    }
 }
 
 /* Styles for the main heading */
@@ -27,6 +40,12 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em; /* Adjust font size for smaller screens */
+    }
+}
+
 /* Styles for the progress bar */
 #progress-bar {
     background-color: #d7ccc8;
@@ -36,11 +55,10 @@ h1 {
     overflow: hidden;
 }
 
-#progress-bar .progress {
-    background-color: #795548;
-    height: 100%;
-    border-radius: 10px;
-    transition: width 0.5s ease-in-out;
+@media (max-width: 768px) {
+    #progress-bar {
+        height: 15px; /* Adjust height on mobile */
+    }
 }
 
 /* Styles for the table of contents */
@@ -52,11 +70,23 @@ h1 {
     border: 1px solid #d7ccc8;
 }
 
+@media (max-width: 768px) {
+    #table-of-contents {
+        padding: 15px; /* Reduce padding on mobile */
+    }
+}
+
 #table-of-contents h2 {
     margin-top: 0;
     font-family: 'Tangerine', cursive;
     font-size: 2.5em;
     color: #4e342e;
+}
+
+@media (max-width: 768px) {
+    #table-of-contents h2 {
+        font-size: 2em; /* Adjust font size on mobile */
+    }
 }
 
 #table-of-contents ul {
@@ -104,11 +134,24 @@ h1 {
     font-size: 1.1em;
 }
 
+@media (max-width: 768px) {
+    #chapter-content {
+        padding: 15px; /* Reduce padding on mobile */
+        font-size: 1em; /* Adjust font size on mobile */
+    }
+}
+
 #chapter-content h1 {
     font-family: 'Tangerine', cursive;
     font-size: 3em;
     color: #4e342e;
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    #chapter-content h1 {
+        font-size: 2em; /* Adjust font size on mobile */
+    }
 }
 
 /* Styles for the quiz container */
@@ -120,11 +163,23 @@ h1 {
     border: 1px solid #d7ccc8;
 }
 
+@media (max-width: 768px) {
+    #quiz-container {
+        padding: 15px; /* Reduce padding on mobile */
+    }
+}
+
 #quiz-container h2 {
     font-family: 'Tangerine', cursive;
     font-size: 2.5em;
     color: #4e342e;
     margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    #quiz-container h2 {
+        font-size: 2em; /* Adjust font size on mobile */
+    }
 }
 
 /* Button styles */
@@ -148,15 +203,34 @@ button:hover {
     background-color: #5d4037;
 }
 
+@media (max-width: 768px) {
+    button {
+        width: 100%; /* Make buttons full-width on mobile */
+        padding: 12px 0; /* Adjust padding */
+    }
+}
+
 /* Styles for quiz questions */
 #quiz-questions div {
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    #quiz-questions div {
+        margin-bottom: 15px; /* Reduce margin on mobile */
+    }
 }
 
 #quiz-questions h3 {
     margin-bottom: 10px;
     font-size: 1.2em;
     color: #4e342e;
+}
+
+@media (max-width: 768px) {
+    #quiz-questions h3 {
+        font-size: 1em; /* Adjust font size on mobile */
+    }
 }
 
 #quiz-questions label {
@@ -180,6 +254,12 @@ button:hover {
     transition: opacity 2s ease-in-out;
 }
 
+@media (max-width: 768px) {
+    .magical-text {
+        font-size: 1.5em; /* Adjust font size on mobile */
+    }
+}
+
 /* Ensure only one magical text is visible */
 #quiz-container .magical-text {
     position: relative;
@@ -195,6 +275,12 @@ button:hover {
     border: 2px solid #d7ccc8;
 }
 
+@media (max-width: 768px) {
+    #cover {
+        padding: 20px; /* Reduce padding for mobile */
+    }
+}
+
 #cover img {
     max-width: 100%;
     height: auto;
@@ -207,6 +293,12 @@ button:hover {
     margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+    #cover h1 {
+        font-size: 3em; /* Adjust font size on mobile */
+    }
+}
+
 #cover h2 {
     font-family: 'Lora', serif;
     font-size: 2em;
@@ -214,12 +306,32 @@ button:hover {
     color: #5d4037;
 }
 
+@media (max-width: 768px) {
+    #cover h2 {
+        font-size: 1.5em; /* Adjust font size on mobile */
+    }
+}
+
 #cover p {
     font-style: italic;
     margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+    #cover p {
+        margin-bottom: 20px; /* Reduce margin on mobile */
+    }
+}
+
 #start-reading {
     font-size: 1.2em;
     padding: 15px 30px;
+}
+
+@media (max-width: 768px) {
+    #start-reading {
+        font-size: 1em; /* Adjust font size on mobile */
+        width: 100%; /* Make button full-width */
+        padding: 12px 0; /* Adjust padding */
+    }
 }

@@ -1,7 +1,7 @@
 /* Base styles for the entire application */
 body {
     font-family: 'Lora', serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 20px;
     background-color: #f0e6d2;
     color: #3e2723;
@@ -9,6 +9,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Reduce padding on mobile */
+        flex-direction: column;
+    }
 }
 
 /* Container for the entire library app */
@@ -23,6 +30,12 @@ body {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    #library-app {
+        padding: 20px; /* Reduce padding on mobile */
+    }
+}
+
 /* Styles for the main heading */
 h1 {
     font-family: 'Tangerine', cursive;
@@ -32,11 +45,24 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em; /* Adjust font size for smaller screens */
+    }
+}
+
 /* Styles for the book list */
 #book-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    #book-list {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Styles for individual book items */
@@ -56,6 +82,13 @@ h1 {
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+@media (max-width: 768px) {
+    .book-item {
+        margin: 10px 0; /* Reduce margin on mobile */
+        width: 80%; /* Make items wider on mobile */
+    }
+}
+
 /* Styles for book cover images */
 .book-cover {
     width: 100%;
@@ -69,4 +102,10 @@ h1 {
     font-size: 18px;
     margin: 10px 0;
     color: #6b4226;
+}
+
+@media (max-width: 768px) {
+    .book-title {
+        font-size: 16px; /* Adjust font size on mobile */
+    }
 }
